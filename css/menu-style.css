@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  serif;
+
+    margin: 0;
+
+    font-size: 20px;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: lightgray;
+}
+section{
+  transform: translate(0,40vh);
+  text-align: center;
+}
+ul{
+    float: right;
+    margin-left: auto;
+    color: #fff;
+}
+input[type="text"]{
+  width: 43%;
+  border-radius: 10px;
+  border:3px solid #7b0c14;
+  height: 2.3rem;
+  padding-left: 10px;
+
+}
+input[type="button"]{
+  width: 80px;
+  height: 2.3rem;
+  background-color: #7b0c14;
+  border-radius: 10px;
+  color: #fff;
+  border:1px solid #fff;
+}
+.container-top{
+  padding: 0 8% ;
+  position: relative;
+    height: 100vh;
+    margin: auto;
+    background-image: url(../IMG/img_not_ready/menu-ready.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+
+    z-index: 1;
+}
+
+.container-top::after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+.container-bottom{
+
+    margin: auto;
+
+}
+
+.underline{
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+/* Bottom Part */
+.bottom{
+  background: url(../IMG/img_not_ready/behind-price.jpg) no-repeat center center/cover;
+  padding: 45px 0px;
+}
+.my-row{
+  padding: 0 15% ;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 20px;
+  text-align: center;
+
+}
+.my-col3{
+  width: 100%;
+  border: 1px solid #fff;
+  padding: 0;
+
+}
+p{
+  padding-left: 5px;
+}
+
+.wrap-up{
+  background-color: #7b0c14;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.wrap-up input{
+  color: #7b0c14;
+  background-color: #fff;
+}
+.wrap-up input:hover{
+  color: #fff;
+  background-color: #7b0c14;
+}
+em{
+  text-decoration: underline;
+  /* padding: 20px  15px 0px; */
+  margin: 0;
+  display: inline-block;
+  width: 5rem;
+}
+i{
+  text-align: right;
+  width: 20%;
+}
+@media(max-width : 667px) {
+  .my-row{
+    display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  }
+}

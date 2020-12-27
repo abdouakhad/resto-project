@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  serif;
+    background-color: lightgray;
+    margin: 0;
+
+    font-size: 20px;
+    color: #7b0c14;
+}
+nav{
+  background-color: #7b0c14;
+  padding: 5% 10% ;
+}
+ul{
+    float: right;
+    margin-left: auto;
+    color: #fff;
+}
+a{
+  color: #fff;
+}
+a:hover{
+  color: lightgray;
+}
+button{
+  background-color: #7b0c14;
+  height: 50px;
+  border-radius: 13px;
+  border:none;
+  color: #fff;
+}
+.underline{
+  text-decoration: underline;
+}
+.nav-brand{
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+/* Bootstrap Customization */
+
+
+.showcase {
+  font-size: 20px;
+  color: #7b0c14;
+  font-family:  serif;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #lightgray;
+  margin-top: 20px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+  text-align: center;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.text-muted{
+  color: #7b0c14!important;
+  /* I activated the important so that they allowed me to put my own color */
+}
+.first{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  margin-bottom: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
